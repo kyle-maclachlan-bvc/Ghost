@@ -23,8 +23,8 @@ public class UIManager : MonoBehaviour
     {
         Debug.Log($"Updating Scores: P1={player1Score}, P2={player2Score}");
         
-        player1Text.text = $"Player 1: {player1Score}";
-        player2Text.text = $"Player 2: {player2Score}";
+        //player1Text.text = $"Player 1: {player1Score}";
+        //player2Text.text = $"Player 2: {player2Score}";
     }
 
     public void ShowResult(string message)

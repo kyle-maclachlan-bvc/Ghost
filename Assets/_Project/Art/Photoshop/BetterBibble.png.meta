@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 02bde10aef521894a989824e5c623a5c
+guid: 9cffcb2d2517f5c46acf8ca48943ac51
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2634799857069279492
-    second: Person_0
+      213: 7599517830245510436
+    second: BetterBibble_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Person_0
+      name: BetterBibble_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1024
-        height: 1024
+        x: 57
+        y: 186
+        width: 922
+        height: 634
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cf6b2216d7f4f6bd0800000000000000
-      internalID: -2634799857069279492
+      spriteID: 42de700e339e67960800000000000000
+      internalID: 7599517830245510436
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Person_0: -2634799857069279492
+      BetterBibble_0: 7599517830245510436
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

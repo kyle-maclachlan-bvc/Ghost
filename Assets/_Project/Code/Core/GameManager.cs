@@ -68,7 +68,7 @@ public class GameManager : MonoBehaviour
 
         int loserID = winnerID == 1 ? 2 : 1;
 
-        uiManager.ShowResult($"PLAYER {winnerID} Ecorvised the Ghost!\nPLAYER {loserID} is Haunted!");
+        uiManager.ShowResult($"PLAYER {winnerID} exorcized the Ghost!\nPLAYER {loserID} is Haunted!");
     }
 
     private void BothPlayersLose()
