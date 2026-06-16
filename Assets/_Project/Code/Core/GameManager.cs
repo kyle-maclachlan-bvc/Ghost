@@ -5,7 +5,9 @@ public class GameManager : MonoBehaviour
     [Header("Game Settings")]
     [SerializeField] private float gameDuration = 120f;
     [SerializeField] private int targetPresses = 100;
-
+    
+    [SerializeField] private GhostController ghostController;
+    
     [SerializeField] private UIManager uiManager;
     
     private float currentTime;
@@ -58,6 +60,8 @@ public class GameManager : MonoBehaviour
             if (player2Presses >= targetPresses)
                 PlayerWins(2);
         }
+        
+        ghostController.UpdateGhostPosition(player1Presses, player2Presses);
         
         uiManager.UpdateScore(player1Presses, player2Presses);
     }

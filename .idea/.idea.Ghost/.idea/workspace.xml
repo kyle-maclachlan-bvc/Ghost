@@ -12,16 +12,9 @@
   <component name="ChangeListManager">
     <list default="true" id="03e7795c-627a-43ef-a788-b7013d0c9245" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Ghost/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Ghost/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Art/Photoshop/PSDs/Bible.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Art/Photoshop/PSDs/Bible.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Art/Photoshop/PSDs/Church.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Art/Photoshop/PSDs/Church.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Art/Photoshop/PSDs/Ghost.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Art/Photoshop/PSDs/Ghost.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Art/Photoshop/PSDs/Person.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Art/Photoshop/PSDs/Person.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Art/Photoshop/PSDs/TitleScreen.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Art/Photoshop/PSDs/TitleScreen.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Art/Photoshop/BetterChurch.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Art/Photoshop/BetterChurch.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Code/Core/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Code/Core/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Code/Core/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Code/Core/UIManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/Levels/ArtScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/Levels/ArtScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/Levels/GhostLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/Levels/GhostLevel.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +25,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Code/Core/GhostController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Code/Core/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="McpProjectServerCommands">
@@ -115,7 +109,7 @@
       <updated>1781037609774</updated>
       <workItem from="1781037613844" duration="33000" />
       <workItem from="1781112508758" duration="4751000" />
-      <workItem from="1781560296835" duration="575000" />
+      <workItem from="1781560296835" duration="3242000" />
     </task>
     <servers />
   </component>
