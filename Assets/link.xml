@@ -1,0 +1,10 @@
+<linker>
+  <!--
+    Preserve the new Input System from managed code stripping.
+    Without this, WebGL / IL2CPP builds strip runtime-wired Input System
+    code, so devices stop reporting and ALL input (mouse + keyboard) dies
+    in builds while still working in the editor.
+  -->
+  <assembly fullname="Unity.InputSystem" preserve="all"/>
+  <assembly fullname="Unity.InputSystem.ForUI" preserve="all"/>
+</linker>
