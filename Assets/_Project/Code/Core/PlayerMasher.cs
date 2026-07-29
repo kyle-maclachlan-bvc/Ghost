@@ -1,25 +1,28 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerMasher : MonoBehaviour
+namespace _Project.Code.Core
 {
-    [SerializeField] private int playerID;
-    [SerializeField] private Key mashButton;
-
-    private GameManager gameManager;
-
-    private void Start()
+    public class PlayerMasher : MonoBehaviour
     {
-        gameManager = FindFirstObjectByType<GameManager>();
-    }
+        [SerializeField] private int playerID;
+        [SerializeField] private Key mashButton;
 
-    private void Update()
-    {
-        if (Keyboard.current[mashButton].wasPressedThisFrame)
+        private GameManager gameManager;
+
+        private void Start()
         {
-            //Debug.Log($"Player {playerID} pressed {mashButton}");
+            gameManager = FindFirstObjectByType<GameManager>();
+        }
+
+        private void Update()
+        {
+            if (Keyboard.current[mashButton].wasPressedThisFrame)
+            {
+                //Debug.Log($"Player {playerID} pressed {mashButton}");
             
-            gameManager.RegisterPress(playerID);
+                gameManager.RegisterPress(playerID);
+            }
         }
     }
 }
